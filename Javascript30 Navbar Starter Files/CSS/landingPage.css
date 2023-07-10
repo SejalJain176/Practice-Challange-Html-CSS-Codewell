@@ -1,0 +1,120 @@
+.container{
+    display:flex !important;
+    flex-direction: row;
+    margin-top: 5rem;
+
+}
+
+.logo{
+    margin: initial;
+}
+.Navbar-css{
+    margin: auto;
+}
+.nav-item{
+    margin: 2px 21px 2px 14px;
+}
+body{
+    background-color: #f3e7d7;
+    
+}
+a{
+    color:darkgray;
+}
+ul{
+    list-style: none;
+}
+.signin{
+    color: darkgray;
+}
+.btn{
+    background: #043b04;
+    margin-left: 27px;
+    color: white;
+}
+li.nav-item a:hover{
+   text-decoration: none !important  ;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(10px);
+    margin-top: 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px;
+ 
+
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    /* Add more styles as needed */
+  }
+  
+  .subheading {
+    margin-left: 10px;
+    /* Add more styles as needed */
+  }
+  
+  
+  .description {
+    color: gray;
+    /* Add more styles as needed */
+  }
+  .logo1{
+    height: 40%;
+    position: relative;
+    left: 306px;
+  }
+  .hero{
+    margin: initial;
+  }
+
+  .mainText{
+    margin: initial;
+    position: relative;
+    /* right: -132px; */
+    left: 120px;
+  }
+  
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.subheading1{
+    font-size: darkgray;
+    color: grey;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 28px;
+
+}
+
+.comapnies{
+    position: relative;
+    bottom: 45rem;
+    left: 20rem;
+    display: inline-block;
+}  
